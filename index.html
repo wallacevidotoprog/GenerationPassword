@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- <meta http-equiv='refresh' content='1'> -->
+    <meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="keyword" content="gerador de senha">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="https://cdn-icons-png.flaticon.com/512/1665/1665768.png" alt="password" class="logo">
+    <main class="container-input">
+        <span>Tamanho: <span id="valor"></span> Caracteres.</span>
+        <input type="range" class="slider" id="slider" min="5" max="25" value="5">
+        <button id="button" class="button-cta" onclick="generationPassord()">Gerar Senha</button>
+        <div id="container-password" onclick="copyPass()" class="container-password hide">
+            <span class="title">Sua senha gerada foi: </span>
+            <span id="password" class="password">12345567</span>
+            <span class="cpc">Clique para copiar.</span>
+        </div>
+    </main>
+
+</body>
+<script src="js/main.js"></script>
+
+</html>
