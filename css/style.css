@@ -97,3 +97,7 @@ transform: scale(1.2);
 .hide{
     display: none;
 }
+h1{
+    color: aquamarine;
+    font-size: 50px;
+}
